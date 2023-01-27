@@ -1,0 +1,149 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 720px;
+  background: #19a1ae;
+  background-image: url(/profile/images/bg-pattern-top.svg),url(/profile/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position-x: -300px, 750px;
+  background-position-y: -500px, 350px ;
+  
+  
+}
+
+.divisor {
+  width: 350px;
+  height: 374px;
+  border-radius: 15px;
+  position: absolute;
+  background-color: white;
+  margin-left: 545px;
+  margin-top: 175px;
+  background-image: url(/profile/images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+}
+#avatar {
+  position: absolute;
+  margin-top: 92px;
+  margin-left: 127px;
+  border: solid white 5px;
+  border-radius: 50px;
+}
+#name {
+  position: absolute;
+  margin-top: 212.5px;
+  margin-left: 108px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  height: 18px;
+
+  font-style: normal;
+}
+#age {
+  position: absolute;
+  height: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #6b7082;
+  margin-top: 212.5px;
+  margin-left: 220.5px;
+}
+#place {
+  position: absolute;
+  color: #6b7082;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  height: 14px;
+  font-size: 14px;
+  line-height: 17px;
+  font-style: normal;
+  margin-top: 243px;
+  margin-left: 150px;
+}
+#line {
+  position: absolute;
+  margin-top: 285px;
+  width: 350px;
+  height: 1px;
+  background-color: #e8e9ec;
+  border: none;
+}
+#followers {
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 59px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #2e3349;
+}
+#likes {
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 152.5px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #2e3349;
+}
+#post {
+  position: absolute;
+  margin-top: 310px;
+  margin-left: 255.5px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #2e3349;
+}
+#foll {
+  position: absolute;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+
+  margin-top: 337px;
+  margin-left: 48.5px;
+  height: 10px;
+  color: #6B7082;
+
+}
+#lik {
+  position: absolute;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+
+  margin-top: 337px;
+  margin-left: 161px;
+  height: 10px;
+  color: #6B7082;
+
+}
+#photos {
+  position: absolute;
+  font-family: "Kumbh Sans", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+
+  margin-top: 337px;
+  margin-left: 254.5px;
+  height: 10px;
+  color: #6B7082;
+
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
